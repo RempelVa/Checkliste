@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benutzeroberfläche</title>
+    <link rel="stylesheet" href="Benutzeroberfläche.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Willkommen zur Benutzeroberfläche</h1>
+        <form id="loginForm">
+            <label for="name">Dein Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message" class="hidden"></div>
+    </div>
+    <script src="Benutzeroberfläche.js"></script>
+</body>
+</html>
